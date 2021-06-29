@@ -1,0 +1,81 @@
+.container :global(.vtex-button):hover {
+  background-color: transparent;
+}
+.container :global(.vtex-button__label) {
+  width: 40px;
+  height: 40px;
+  padding: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container :global(.vtex-button__label) :global(.nr2) {
+  height: 16px;
+  display: block;
+  margin-right: 0;
+}
+.container :global(.vtex-button__label) :global(.mr3) {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.label,
+.profile {
+  width: 5rem;
+  padding-left: 0;
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: none;
+  color: #2d4b9a;
+  transform: translateX(-50%);
+}
+
+
+.label{
+  margin-bottom: 2px;
+}
+
+@media screen and (min-width: 1024px) {
+  .label,
+.profile {
+    display: block;
+    transform: translate(-50%, 0.8rem);
+  }
+}
+
+.profileIcon--HeaderIcon {
+  color: #2d4b9a;
+}
+@media screen and (min-width: 1024px) {
+  .profileIcon--HeaderIcon {
+    transform: scale(2);
+  }
+}
+
+:global(.vtex-store__template) {
+  overflow: hidden;
+}
+
+:global(.vtex-menu-2-x-menuContainer--MenuL2G-ByCategory) > div {
+  display: block;
+  order: 100;
+}
+:global(.vtex-menu-2-x-menuContainer--MenuL2G-ByCategory) > div :global(.vtex-menu-2-x-styledLinkContent) {
+  font-size: 0;
+}
+:global(.vtex-menu-2-x-menuContainer--MenuL2G-ByCategory) > div :global(.vtex-menu-2-x-styledLinkContent)::before {
+  content: "Ver todos";
+  font-size: 1rem;
+  color: #acacac;
+}
+:global(.vtex-menu-2-x-submenuWrapper--ProductsMenuDesktop) :global(.vtex-menu-2-x-menuContainer--MenuL2G-ByCategory) > div :global(.vtex-menu-2-x-styledLinkContent)::before {
+  font-weight: normal;
+}
+
+:global(.vtex-rich-text-0-x-paragraph) ~ :global(.vtex-rich-text-0-x-headingLevel2--StaticPageOnlyText) {
+  margin-top: 2rem;
+}

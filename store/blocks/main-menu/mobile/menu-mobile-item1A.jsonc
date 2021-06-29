@@ -1,0 +1,223 @@
+{
+  // Mobile
+  "menu-item#MenuItemL0M-ProductsMenu": {
+    "props": {
+      "orientation": "vertical",
+      "itemProps": {
+        "href": "#",
+        "text": "Productos"
+      },
+      "blockClass": "MenuItemL0M"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "SubmenuL2M-ProductsMenu"
+    },
+    "children": [
+      "menu-item#MenuItemL1M-ProductsMenu-01",
+      "menu-item#MenuItemL1M-ProductsMenu-02",
+      "menu-item#MenuItemL1M-ProductsMenu-03",
+      "menu-item#MenuItemL1M-ProductsMenu-04",
+      "menu-item#MenuItemL1M-ProductsMenu-05",
+      "menu-item#MenuItemL1M-ProductsMenu-06",
+      "menu-item#MenuItemL1M-ProductsMenu-07",
+      "menu-item#MenuItemL1M-ProductsMenu-08",
+      "menu-item#MenuItemL1M-ProductsMenu-09"
+    ]
+  },
+  //
+  "menu-item#MenuItemL1M-ProductsMenu-01": {
+    "props": {
+      "itemProps": {
+        "href": "/linea-blanca",
+        "text": "Línea Blanca"
+      },
+      "blockClass": "MenuItemL1M"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-01"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-01": {
+    "props": {
+      "blockClass": "SubmenuL2M-ProductsMenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-01"
+      // "menu-item#MenuItemL2G-ProductsMenu-all"
+    ]
+  },
+  "menu-item#MenuItemL1M-ProductsMenu-02": {
+    "props": {
+      "itemProps": {
+        "href": "/electronica",
+        "text": "Electrónica"
+      },
+      "blockClass": "MenuItemL1M"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-02"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-02": {
+    "props": {
+      "blockClass": "SubmenuL2M-ProductsMenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-02"
+      // "menu-item#MenuItemL2G-ProductsMenu-all"
+    ]
+  },
+  "menu-item#MenuItemL1M-ProductsMenu-03": {
+    "props": {
+      "itemProps": {
+        "href": "/muebles",
+        "text": "Muebles"
+      },
+      "blockClass": "MenuItemL1M"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-03"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-03": {
+    "props": {
+      "blockClass": "SubmenuL2M-ProductsMenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-03"
+      // "menu-item#MenuItemL2G-ProductsMenu-all"
+    ]
+  },
+  "menu-item#MenuItemL1M-ProductsMenu-04": {
+    "props": {
+      "itemProps": {
+        "href": "/recamaras",
+        "text": "Recámaras"
+      },
+      "blockClass": "MenuItemL1M"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-04"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-04": {
+    "props": {
+      "blockClass": "SubmenuL2M-ProductsMenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-04"
+      // "menu-item#MenuItemL2G-ProductsMenu-all"
+    ]
+  },
+  "menu-item#MenuItemL1M-ProductsMenu-05": {
+    "props": {
+      "itemProps": {
+        "href": "/colchones",
+        "text": "Colchones"
+      },
+      "blockClass": "MenuItemL1M"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-05"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-05": {
+    "props": {
+      "blockClass": "SubmenuL2M-ProductsMenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-05"
+      // "menu-item#MenuItemL2G-ProductsMenu-all"
+    ]
+  },
+  "menu-item#MenuItemL1M-ProductsMenu-06": {
+    "props": {
+      "itemProps": {
+        "href": "/literas",
+        "text": "Literas"
+      },
+      "blockClass": "MenuItemL1M"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-06"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-06": {
+    "props": {
+      "blockClass": "SubmenuL2M-ProductsMenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-06"
+      // "menu-item#MenuItemL2G-ProductsMenu-all"
+    ]
+  },
+  "menu-item#MenuItemL1M-ProductsMenu-07": {
+    "props": {
+      "itemProps": {
+        "href": "/bases-y-box",
+        "text": "Bases y Box"
+      },
+      "blockClass": "MenuItemL1M"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-07"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-07": {
+    "props": {
+      "blockClass": "SubmenuL2M-ProductsMenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-07"
+      // "menu-item#MenuItemL2G-ProductsMenu-all"
+    ]
+  },
+  "menu-item#MenuItemL1M-ProductsMenu-08": {
+    "props": {
+      "itemProps": {
+        "href": "/temporada",
+        "text": "Temporada"
+      },
+      "blockClass": "MenuItemL1M"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-08"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-08": {
+    "props": {
+      "blockClass": "SubmenuL2M-ProductsMenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-08"
+      // "menu-item#MenuItemL2G-ProductsMenu-all"
+    ]
+  },
+  "menu-item#MenuItemL1M-ProductsMenu-09": {
+    "props": {
+      "itemProps": {
+        "href": "/motos-y-bicicletas",
+        "text": "Motos y Bicicletas"
+      },
+      "blockClass": "MenuItemL1M"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-09"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#SubmenuL2M-ProductsMenu-09": {
+    "props": {
+      "blockClass": "SubmenuL2M-ProductsMenu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-09"
+      // "menu-item#MenuItemL2G-ProductsMenu-all"
+    ]
+  }
+}

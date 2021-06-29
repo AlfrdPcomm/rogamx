@@ -1,0 +1,43 @@
+.quantitySelectorContainer {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #dadada;
+  border-radius: 0.25rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .quantitySelectorContainer {
+    margin-bottom: 0;
+  }
+}
+.quantitySelectorContainer .quantitySelectorTitle {
+  padding: 0.5rem 1rem 0.5rem 0;
+  border-right: 1px solid #000;
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: black;
+}
+
+:global(.vtex-numeric-stepper__input),
+:global(.vtex-numeric-stepper__plus-button),
+:global(.vtex-numeric-stepper__minus-button) {
+  width: 30px !important;
+  height: 30px;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+}
+
+:global(.vtex-numeric-stepper__input) {
+  margin-left: 1px;
+  margin-right: 1px;
+  color: #2d4b9a;
+}
+
+:global(.vtex-numeric-stepper__plus-button),
+:global(.vtex-numeric-stepper__minus-button) {
+  color: white;
+  background-color: #2d4b9a;
+}

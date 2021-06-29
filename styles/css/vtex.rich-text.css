@@ -1,0 +1,152 @@
+.heading-level-1 {
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+  color: #2c3137;
+}
+.container--StaticPageOnlyText .heading-level-1 {
+  color: #2d4b9a;
+}
+.heading-level-2 {
+  padding-bottom: 0.25em;
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+  color: #2c3137;
+}
+.container--StaticPageOnlyText .heading-level-2 {
+  border-bottom: 1px solid #dadada;
+}
+.heading-level-3 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  letter-spacing: -0.025em;
+}
+.heading-level-4 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  letter-spacing: -0.025em;
+}
+.heading-level-5 {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  letter-spacing: -0.025em;
+}
+.heading-level-6 {
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  font-weight: 500;
+}
+
+.container--StaticPageOnlyText .paragraph {
+  margin-top: 0;
+}
+.container--StaticPageOnlyText .link {
+  color: #2d4b9a;
+}
+.container--StaticPageOnlyText .table {
+  width: 50%;
+  border-collapse: collapse;
+  text-align: center;
+}
+.container--StaticPageOnlyText .table .tableTh,
+.container--StaticPageOnlyText .table .tableTd {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.container--StaticPageOnlyText .table .tableTh {
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+}
+.container--StaticPageOnlyText .table .tableBody .tableTr:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+.container--deals {
+  color: #6b6b6b;
+  text-align: center;
+  justify-content: center;
+}
+
+.container--shelfTitle {
+  color: #727273;
+  justify-content: center;
+  text-align: center;
+}
+
+.headingLevel2--shelfTitle {
+  font-weight: 200;
+}
+
+.container--deals .paragraph {
+  margin: 0;
+}
+
+.container--link {
+  justify-content: center;
+}
+
+.container--question {
+  justify-content: center;
+}
+
+.container--question .paragraph {
+  text-align: center;
+  max-width: 540px;
+  margin: 0 16px;
+  padding-top: 120px;
+  color: #03034e;
+}
+
+.container--question .strong {
+  font-size: 32px;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.container--link .paragraph {
+  text-align: center;
+  max-width: 540px;
+  padding-top: 36px;
+  padding-bottom: 84px;
+  color: #03034e;
+}
+
+.container--link .strong {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container--link .link {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: 300;
+  color: #03034e;
+}
+
+.container--title {
+  color: #03034e;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 640px) {
+  .container--question .strong {
+    font-size: 40px;
+    line-height: 3rem;
+  }
+
+  .container--about {
+    max-width: 85%;
+  }
+
+  .container--title {
+    color: #03034e;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 60%;
+  }
+
+  .container--title .paragraph {
+    line-height: 1.3em;
+  }
+}

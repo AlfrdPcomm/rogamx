@@ -1,0 +1,15 @@
+{
+    "filter-navigator.v3": {
+        "props": {
+            "layout": "desktop",
+            "maxItemsDepartment": 5,
+            "maxItemsCategory": 2,
+            "initiallyCollapsed": false
+        }
+    },
+    "order-by.v2": {
+      "props": {
+        "showOrderTitle": true
+      }
+    }
+}

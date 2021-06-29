@@ -1,0 +1,47 @@
+{
+    "store.custom#quienes-somos": {
+        "blocks": [
+            "flex-layout.row#titquiens",
+            "flex-layout.row#contquiens",
+            "flex-layout.row#imagequiens"
+        ]
+      },
+
+      "flex-layout.row#titquiens":{
+        "children":[
+          "rich-text#titq"
+        ]
+      },"rich-text#titq":{
+        "props":{
+          "text": "## ¿Quiénes somos?",
+          "textPosition": "CENTER",
+          "blockClass":"txtinst"
+        }        
+      },
+
+      "flex-layout.row#contquiens":{
+        "children":[
+          "rich-text#contq"
+        ]
+      },"rich-text#contq":{
+        "props":{
+          "text": "Grupo ROGA, es una compañía orgullosamente mexicana que \n **comercializamos salas, antecomedores, cocinas, tablets, televisiones, minicomponentes, bocinas, lavadoras, secadoras, estufas, campanas, refrigeradores, hornos de microondas, calefactores, aires, boilers, minisplits, tanques de gas, colchones, recámaras, motocicletas,** entre muchas cosas más y **préstamos** no bancarios con presencia en los estados de: \n -**Chihuahua** en las ciudades de Juárez y Chihuahua.-**Nuevo León** en los municipios de **Guadalupe, Villa Juárez, Escobedo, San Nicolás, Monterrey, Salinas Victoria, Apodaca, Cadereyta, Ciénaga de Flores, Valle de García y Santa Catarina.**-**Sonora** en la ciudad de **Hermosillo.**-**Coahuila** en la ciudad de **Saltillo.**-**Guanajuato** en la ciudad de León.**-**Sinaloa** en la ciudad de **Culiacán.** -**Baja California** en la ciudad de Mexicali y **Tijuana** \n\n En el año 1991 se abre nuestra primera tienda y partiendo de ahí logramos expandirnos, teniendo\n actualmente más de 110 puntos de venta operando bajo las marcas del grupo:\n\nMueblería El Pasito, Villareal Muebles, Dinexpress y Frigante.\n\nCon nuestra fuerza laboral de más de 1,300 empleados que conforman el equipo garantizamos la satisfacción de nuestro cliente sustentado en los valores de trabajo en equipo, honestidad y austeridad.\n\nRecuerda que en Grupo ROGA: Consentimos Tu Hogar.",
+          "blockClass": "txtinst"
+        }        
+      },
+      
+      "flex-layout.row#imagequiens":{
+        "children":[
+          "image#quienessomos"
+        ],"props":{
+          "horizontalAlign": "CENTER"
+        }
+      },"image#quienessomos":{
+        "props":{
+          "src": "https://rogamx.myvtex.com/arquivos/histgruporoga.png"
+        }
+      }
+}
+
+
+

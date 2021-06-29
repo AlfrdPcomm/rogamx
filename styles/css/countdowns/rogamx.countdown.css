@@ -1,0 +1,45 @@
+.countdown--SalasRecamaras {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 1.5rem;
+  right: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: white;
+}
+@media screen and (min-width: 1024px) {
+  .countdown--SalasRecamaras {
+    font-size: 2rem;
+    bottom: 2.5rem;
+  }
+}
+.countdown--SalasRecamaras .days,
+.countdown--SalasRecamaras .hours,
+.countdown--SalasRecamaras .minutes,
+.countdown--SalasRecamaras .seconds {
+  width: 1.8em;
+  border-radius: 0.25rem;
+  padding: 0.5em 0;
+  text-align: center;
+  background-color: #333333;
+}
+@media screen and (min-width: 1024px) {
+  .countdown--SalasRecamaras .days,
+.countdown--SalasRecamaras .hours,
+.countdown--SalasRecamaras .minutes,
+.countdown--SalasRecamaras .seconds {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+  }
+}
+.countdown--SalasRecamaras .seconds {
+  margin-right: 0;
+}
+.countdown--SalasRecamaras .separator {
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}

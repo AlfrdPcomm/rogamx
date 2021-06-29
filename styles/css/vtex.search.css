@@ -1,0 +1,16 @@
+/* :global(.autoCompleteOuterContainer--buscador) {
+  width: 800px;
+} */
+
+:global(.vtex-store-components-3-x-searchBarContainer) {
+  max-width: 800px;
+}
+
+:global(.vtex-styleguide-9-x-input) {
+  max-width: 800px;
+}
+
+
+.biggy-autocomplete-wrapper{
+  min-width: 320px;
+}

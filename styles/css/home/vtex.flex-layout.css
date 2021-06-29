@@ -1,0 +1,37 @@
+.flexRow--pair-banner .stretchChildrenWidth {
+  margin-bottom: 1rem;
+}
+
+.flexRow--deals {
+  padding: 0 15px;
+  background-color: #ffffff;
+}
+
+.flexRow--deals .stretchChildrenWidth {
+  height: auto;
+  padding: 10px 5px;
+  margin: 15px 0;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+@media screen and (min-width: 1024px) {
+  .flexRow--deals .stretchChildrenWidth {
+    height: 70px;
+    padding: 20px;
+    margin: 20px;
+  }
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.flexRow--deals .flexCol :global(.vtex-store-components-3-x-imageElement) {
+  margin-left: 0;
+}
+@media screen and (min-width: 1024px) {
+  .flexRow--deals .flexCol :global(.vtex-store-components-3-x-imageElement) {
+    margin-left: 15px;
+  }
+}

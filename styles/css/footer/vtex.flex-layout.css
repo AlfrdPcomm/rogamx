@@ -1,0 +1,80 @@
+@charset "UTF-8";
+.flexRow--footerRow1 {
+  border-top: 2px solid #2d4b9a;
+  border-bottom: 2px solid #2d4b9a;
+  margin-bottom: 15px;
+}
+
+.flexRowContent--footerRow1 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.flexRow--footer-top {
+  padding-top: 1.5rem;
+}
+@media screen and (min-width: 1024px) {
+  .flexRow--footer-top {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.flexColChild--FooterMobile2 {
+  padding-bottom: 0;
+}
+
+.flexRow--PaymentMethods,
+.flexCol--PaymentMethods {
+  position: relative;
+}
+.flexRow--PaymentMethods::before,
+.flexCol--PaymentMethods::before {
+  content: "Métodos de pago";
+  position: absolute;
+  top: -1rem;
+  color: #2d4b9a;
+}
+
+.flexRow--PaymentMethods {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.flexRow--PaymentMethods .stretchChildrenWidth {
+  justify-content: flex-start;
+}
+
+.flexCol--PaymentMethods .flexColChild {
+  display: flex;
+  align-items: center;
+}
+
+.flexCol--socialNet {
+  margin-top: 0;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+.flexCol--socialNet::before {
+  content: "Síguenos";
+  position: absolute;
+  top: -1rem;
+  color: #2d4b9a;
+}
+.flexCol--socialNet .flexColChild {
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.flexCol--powered-logos {
+  flex-direction: row;
+}
+.flexCol--powered-logos :global(.vtex-store-components-3-x-imageElementLink),
+.flexCol--powered-logos :global(.vtex-store-components-3-x-imageElement) {
+  display: block;
+}
+
+.flexRow--FooterMobile3 {
+  background-color: black;
+}

@@ -1,0 +1,10 @@
+.openIconContainer {
+  padding: 0;
+}
+
+.menuIcon {
+  padding: 5px;
+  border-radius: 0.25rem;
+  color: #ffffff;
+  background: #2d4b9a;
+}

@@ -1,0 +1,36 @@
+{
+  "store.custom#Sandbox": {
+    "children": [
+      "flex-layout.row#Sandbox"
+    ]
+  },
+  "flex-layout.row#Sandbox": {
+    "title": "Sandbox",
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "StaticPageOnlyText"
+    },
+    "children": [
+      "flex-layout.col#Sandbox"
+    ]
+  },
+  "flex-layout.col#Sandbox": {
+    "props": {
+      "width": "70%",
+      "blockClass": "StaticPageOnlyText-Text"
+    },
+    "children": [
+      "rich-text#StaticPageOnlyText-Title_01",
+      "sandbox#Sandbox"
+    ]
+  },
+  "sandbox#Sandbox": {
+    "props": {
+      "width": "100%",
+      "height": "auto",
+      // "initialContent": "<h1 style=\"text-align:center;\">Hello World</h1>",
+      "initialContent": "<div id=\"beetrack_widget\" lang=\"es\" api-key=\"cqo4Izx6NYO_NyYlJpPBgg\"></div><script type=\"text/javascript\" charset=\"UTF-8\" language=\"javascript\" src=\"https://beetrack-general.s3-us-west-2.amazonaws.com/widget/cqo4Izx6NYO_NyYlJpPBgg.json\"></script><script async src=\"https://app.beetrack.cl/javascript_widget/beetrack_widget.js\"></script>",
+      "allowCookies": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.buttonLink--ShippingSimulator, .buttonLink--ApplyForCredit {
+  width: 100%;
+  text-transform: none;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.buttonLink--ShippingSimulator {
+  border-width: 1px;
+  border-color: #2d4b9a;
+  color: #2d4b9a;
+}
+.buttonLink--ApplyForCredit {
+  border: none;
+  margin-top: 1rem;
+}
+.buttonLink--ApplyForCredit, .buttonLink--ApplyForCredit:focus {
+  color: white;
+  background-color: #2d4b9a;
+}

@@ -1,0 +1,224 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile",
+      "flex-layout.row#FooterMobile3"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-2-desktop",
+      "flex-layout.row#FooterMobile3",     
+      "flex-layout.row#wa"
+      
+    ]
+  },"flex-layout.row#wa":{
+    "children":[
+      "sticky-layout#whatsapp"
+    ],"props":{
+      "blockClass": "footerwhats"
+    }
+  },"sticky-layout#whatsapp":{
+    "children":[
+      "rich-text#whatsapp"
+    ],"props":{
+      "position": "bottom",
+      "blockClass":"stickywapp"
+    }
+  }, "rich-text#whatsapp":{
+    "props":{
+      "text": "<a href='tel: 6142414225'>6142414225</a>",
+      "textPosition":"CENTER",
+      "blockClass":"txtwapbtn"
+    }
+  },
+
+
+
+
+  "flex-layout.row#footer-1-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#Products",
+      "vtex.menu@2.x:menu#footer-decoration",
+      "vtex.menu@2.x:menu#footer-bags",
+      "vtex.menu@2.x:menu#footer-clothing",
+      "newsletter"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 3
+    }
+  },
+  
+
+  "flex-layout.row#footer-2-desktop": {
+    "children": [
+      "flex-layout.col#PaymentMethods",
+      "flex-layout.col#social",
+      "flex-layout.col#powered-logos"
+    ],
+    "props": {
+      "blockClass": "footer-top"
+    }
+  },
+  "flex-layout.col#social": {
+    "props": {
+      "blockClass": "socialNet"
+    },
+    "children": [
+      "image#1",
+      "image#5",
+      "image#2",
+      "image#3",
+      "image#4"
+    ]
+  },
+
+  "image#1": {
+    "props": {
+      "src": "https://rogamx.vteximg.com.br/arquivos/red-face.png",
+      "link": "https://www.facebook.com/muebleriaelpasito",
+      "maxHeight": "35px",
+      "blockClass": "socialIcon"
+    }
+  },
+  "image#5": {
+    "props": {
+      "src": "https://rogamx.vteximg.com.br/arquivos/red-face.png",
+      "link": "https://www.facebook.com/muebleriasvillarreal",
+      "maxHeight": "35px",
+      "blockClass": "socialIcon"
+    }
+  },
+  "image#2": {
+    "props": {
+      "src": "https://rogamx.vteximg.com.br/arquivos/red-you.png",
+      "link": "https://www.youtube.com/channel/UCmhkRZlYkPIyedePnBysFvQ",
+      "maxHeight": "35px",
+      "blockClass": "socialIcon"
+    }
+  },
+  "image#3": {
+    "props": {
+      "src": "https://rogamx.vteximg.com.br/arquivos/red-insta.png",
+      "link": "https://www.instagram.com/muebleria_el_pasito/",
+      "maxHeight": "35px",
+      "blockClass": "socialIcon"
+    }
+  },
+  "image#4": {
+    "props": {
+      "src": "https://rogamx.vteximg.com.br/arquivos/red-linked.png",
+      "link": "https://www.linkedin.com/company/grupo-roga/",
+      "maxHeight": "35px",
+      "blockClass": "socialIcon"
+    }
+  },
+  "flex-layout.row#PaymentMethods": {
+    "props": {
+      "blockClass": "PaymentMethods"
+    },
+    "children": [
+      "image#PaymentMethds"
+    ]
+  },
+  "flex-layout.col#PaymentMethods": {
+    "props": {
+      "blockClass": "PaymentMethods"
+    },
+    "children": [
+      "image#PaymentMethds"
+    ]
+  },
+  "image#PaymentMethds": {
+    "props": {
+      "src": "assets/footer-payment-methods.jpg"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": ["MasterCard", "Visa", "PayPal"]
+    }
+  },
+  "flex-layout.col#powered-logos": {
+    "props": {
+      "rowGap": 0,
+      "blockClass": "powered-logos"
+    },
+    "children": ["image#puntoCommerce", "image#vtex"]
+  },
+  "image#puntoCommerce": {
+    "props": {
+      "src": "https://rogamx.vteximg.com.br/arquivos/poweredPC-ok.png",
+      "link": "https://puntocommerce.com/",
+      "blockClass": "pc-img",
+      "maxHeight": "56px"
+    }
+  },
+  "image#vtex": {
+    "props": {
+      "src": "https://rogamx.vteximg.com.br/arquivos/poweredVtex-ok.png",
+      "link": "https://vtex.io/",
+      "blockClass": "vtex-img",
+      "maxHeight": "56px"
+    }
+  },
+  // Mobile
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "blockClass": "footerRow1"
+    },
+    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "props": {
+      "blockClass": "FooterMobile2"
+    },
+    "children": ["flex-layout.col#footer-1-mobile"]
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "rowGap": 4,
+      "blockClass": "FooterMobile2"
+    },
+    "children": [
+      "newsletter",
+      "flex-layout.row#PaymentMethods",
+      "flex-layout.row#SocialPowered"
+    ]
+  },
+  "flex-layout.row#SocialPowered": {
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "SocialPowered"
+    },
+    "children": [
+      "flex-layout.col#social",
+      "flex-layout.col#powered-logos"
+    ]
+  },
+  "flex-layout.row#FooterMobile3": {
+    "props": {
+      "blockClass": "FooterMobile3"
+    },
+    "children": [
+      "rich-text#LegalInfo"
+    ]
+  },
+  "rich-text#LegalInfo": {
+    "props": {
+      "text": "<a href='/aviso-de-privacidad' class='vtex-rich-link'>Aviso de privacidad</a> | <a href='/terminos-y-condiciones' class='vtex-rich-link'>Términos y condiciones</a>",
+      "blockClass": "LegalInfo"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.menuContainer--FooterMobile .styledLinkContainer {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.menuContainer--FooterMobile .styledLinkContent {
+  font-weight: 700;
+  color: #2d4b9a;
+}
+.menuContainer--FooterMobile .styledLinkContent .accordionIcon {
+  color: inherit;
+}
+.menuContainer--FooterMobile .submenuAccordion {
+  padding-left: 0;
+}
+.menuContainer--FooterMobile .submenuAccordion .menuContainerNav {
+  padding-bottom: 0.75rem;
+}
+.menuContainer--FooterMobile .submenuAccordion .styledLinkContainer {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.menuContainer--FooterMobile .submenuAccordion .styledLinkContent {
+  font-weight: 400;
+  color: #3f3f40;
+}
+
+.menuItemInnerDiv {
+  border-top: 1px solid #2d4b9a;
+  border-bottom: none;
+}
+
+.menuItem:first-child .menuItemInnerDiv {
+  border: none;
+}

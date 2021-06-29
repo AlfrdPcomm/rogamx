@@ -1,0 +1,11 @@
+{
+  "store.custom#facturacion":{
+    "blocks" : ["flex-layout.row#form-layout"]
+  },
+
+  "flex-layout.row#form-layout": {
+    "children": [
+      "facturacion"
+    ]
+  }
+}

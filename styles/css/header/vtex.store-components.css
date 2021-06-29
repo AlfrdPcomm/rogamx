@@ -1,0 +1,45 @@
+.notificationBarContainer {
+  border-bottom: none;
+  text-decoration: none;
+  background: #ffffff;
+}
+.notificationBarInner {
+  color: #2d4b9a;
+}
+
+.searchIcon--buscador {
+  color: white;
+}
+
+.imageElementLink--fav-img {
+  position: relative;
+}
+.imageElementLink--fav-img::after {
+  content: "Mis Favoritos";
+  width: 5rem;
+  display: none;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-align: center;
+  color: #2d4b9a;
+  transform: translateX(-50%);
+}
+@media screen and (min-width: 1024px) {
+  .imageElementLink--fav-img::after {
+    display: block;
+    transform: translate(-50%, 0.75rem);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .imageElement--HeaderIcon {
+    transform: scale(1.9);
+  }
+}
+
+.imageElement--socialIcon{
+  max-height: 40px!important;
+}

@@ -1,0 +1,3 @@
+.shippingContainer :global(.vtex-input__suffix) {
+  display: none;
+}

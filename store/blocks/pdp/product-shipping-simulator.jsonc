@@ -1,0 +1,48 @@
+{
+  "modal-trigger#ShippingSimulator": {
+    "title": "Shipping calculator [Modal]",
+    "props": {
+      "trigger": "click",
+      "blockClass": "ShippingSimulator"
+    },
+    "children": [
+      "link#ShippingSimulator",
+      "modal-layout#ShippingSimulator"
+    ]
+  },
+  "link#ShippingSimulator": {
+    "props": {
+        "href": "#",
+        "label": "Calcular envío",
+        "target": "_self",
+        "displayMode": "button",
+        "buttonProps": {
+            "variant": "tertiary"
+        },
+        "blockClass": "ShippingSimulator"
+    }
+},
+  "modal-layout#ShippingSimulator": {
+    "props": {
+      "blockClass": "ShippingSimulator"
+    },
+    "children": [
+      // "modal-header#ShippingSimulator",
+      // "rich-text#ShippingSimulator",
+      "shipping-simulator"
+    ]
+  },
+  "modal-header#ShippingSimulator": {
+    "props": {
+      "showCloseButton": true
+    },
+    "children": [
+
+    ]
+  },
+  "rich-text#ShippingSimulator": {
+    "props": {
+      "text": "Calcular envío."
+    }
+  }
+}

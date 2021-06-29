@@ -1,0 +1,7 @@
+.flexCol--ProductsMenuColumn {
+  justify-content: flex-start;
+  align-items: start;
+}
+.flexCol--ProductsMenuColumn .flexColChild {
+  height: auto !important;
+}

@@ -1,0 +1,16 @@
+{
+  "breadcrumb.search": {
+      "props": {
+          "showOnMobile": true,
+          "homeIconSize": 5,
+          "caretIconSize": 10
+      }
+  },
+  "breadcrumb": {
+      "props": {
+          "showOnMobile": true,
+          "homeIconSize": 5,
+          "caretIconSize": 10
+      }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "login": {
+      "props": {
+          // "optionsTitle": "Selecciona una opción",
+          // "emailAndPasswordTitle": "Ingresar",
+          // "accessCodeTitle": "Enviar código de acceso",
+          "emailPlaceholder": "ejemplo@mail.com",
+          "passwordPlaceholder": "Password",
+          "showPasswordVerificationIntoTooltip": true,
+          "showIconProfile": true,
+          "iconLabel": "Mi cuenta",
+          "blockClass": ["loginItem", "HeaderIcon"]
+      },
+      "blocks": [
+          // "icon-profile"
+      ]
+  },
+  "icon-profile": {
+      "props": {
+          "id": "svgIcon-account",
+          "size": 24,
+          "viewbox": "0 0 16 16",
+          "blockClass": "GeneralLogin-TriggerIcon"
+      }
+  }
+}

@@ -1,0 +1,13 @@
+.container--DrawerFilterTrigger {
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  text-align: center;
+  color: white;
+}
+@media screen and (min-width: 1024px) {
+  .container--DrawerFilterTrigger {
+    font-size: 1rem;
+  }
+}

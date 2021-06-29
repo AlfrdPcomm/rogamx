@@ -1,0 +1,82 @@
+{
+  // Options
+  "menu-item#MenuItemL2G-ProductsMenu-Category": {
+    "props": {
+      "itemProps": {
+        "href": "#",
+        "text": "Categoría"
+      },
+      "blockClass": "Category"
+    }
+  },
+  "menu-item#MenuItemL2G-ProductsMenu-all": {
+    "props": {
+      "itemProps": {
+        "href": "#",
+        "text": "Ver todo"
+      },
+      "blockClass": "ViewAll"
+    }
+  },
+  "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-01": {
+    "props": {
+      "categoryId": 1,
+      "orientation": "vertical",
+      "blockClass": "MenuL2G-ByCategory"
+    }
+  },
+  "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-02": {
+    "props": {
+      "categoryId": 2,
+      "orientation": "vertical",
+      "blockClass": "MenuL2G-ByCategory"
+    }
+  },
+  "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-03": {
+    "props": {
+      "categoryId": 3,
+      "orientation": "vertical",
+      "blockClass": "MenuL2G-ByCategory"
+    }
+  },
+  "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-04": {
+    "props": {
+      "categoryId": 4,
+      "orientation": "vertical",
+      "blockClass": "MenuL2G-ByCategory"
+    }
+  },
+  "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-05": {
+    "props": {
+      "categoryId": 5,
+      "orientation": "vertical",
+      "blockClass": "MenuL2G-ByCategory"
+    }
+  },
+  "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-06": {
+    "props": {
+      "categoryId": 6,
+      "orientation": "vertical",
+      "blockClass": "MenuL2G-ByCategory"
+    }
+  },
+  "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-07": {
+    "props": {
+      "categoryId": 7,
+      "orientation": "vertical",
+      "blockClass": "MenuL2G-ByCategory"
+    }
+  },"vtex.menu@2.x:menu#MenuL2G-ProductsMenu-08": {
+    "props": {
+      "categoryId": 8,
+      "orientation": "vertical",
+      "blockClass": "MenuL2G-ByCategory"
+    }
+  },"vtex.menu@2.x:menu#MenuL2G-ProductsMenu-09": {
+    "props": {
+      "categoryId": 9,
+      "orientation": "vertical",
+      "blockClass": "MenuL2G-ByCategory"
+    }
+  }
+}

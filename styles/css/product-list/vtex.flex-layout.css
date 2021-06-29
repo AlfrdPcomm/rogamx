@@ -1,0 +1,32 @@
+.flexRow--ProductListResults {
+  margin-top: 1rem;
+}
+
+.flexCol--filterCol {
+  margin-right: 2rem;
+  opacity: 0.5;
+}
+
+.flexRowContent--ProductListControls {
+  border-bottom: 2px solid #fdf119;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center !important;
+}
+
+.flexRow--ProductListControlMobile {
+  margin-bottom: 2.5rem;
+}
+.flexRow--ProductListControlMobile :global(.vtex-store-components-3-x-container) {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.flexRowContent--ProductListControlMobile {
+  border-bottom: none;
+  justify-content: space-between;
+}
+
+.flexRowContent--ProductListControlDesktop {
+  padding-bottom: 0.5rem;
+}

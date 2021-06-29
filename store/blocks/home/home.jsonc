@@ -1,0 +1,212 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "__fold__.experimentalLazyAssets",
+      "flex-layout.row#categories",
+      "rich-text#shelf-title",
+      "rich-text#subtitle-text",
+      "flex-layout.row#shelf",
+      "flex-layout.row#bannerFull",
+      "flex-layout.row#bannerPair",
+      "flex-layout.row#deals",
+      "back-to-top-button"
+    ]
+  },
+  "back-to-top-button": {
+    "props": {
+      "displayThreshold": 600,
+      "display": "caret-icon"
+    }
+  },
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://rogamx.vtexassets.com/assets/vtex.file-manager-graphql/images/012dc376-45c1-42b7-94e8-a16976bbb7e6___9884ff46e7a85928b3182b9ef4210d3a.jpg",
+          "mobileImage": "https://rogamx.vteximg.com.br/arquivos/principal-res.png"
+        },
+        {
+          "image": "https://rogamx.vteximg.com.br/arquivos/principal-villareal.png",
+          "mobileImage": "https://rogamx.vteximg.com.br/arquivos/principal-res.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "flex-layout.row#categories": {
+    "children": [
+      "flex-layout.col#cat1",
+      "flex-layout.col#cat2",
+      "flex-layout.col#cat3",
+      "flex-layout.col#cat4",
+      "flex-layout.col#cat5"
+    ],
+    "props": {
+      "blockClass": "categories",
+      "horizontalAlign": "center",
+      "fullWidth": false
+    }
+  },
+  "flex-layout.col#cat1": {
+    "children": ["image#cat1"]
+  },
+  "image#cat1": {
+    "props": {
+      "src": "https://rogamx.vteximg.com.br/arquivos/cat-recamaras.png",
+      "link": "/recamaras",
+      "blockClass": "catImages"
+    }
+  },
+  "flex-layout.col#cat2": {
+    "children": ["image#cat2"]
+  },
+  "image#cat2": {
+    "props": {
+      "src": "https://rogamx.vteximg.com.br/arquivos/cat-blanca.png",
+      "link": "/linea-blanca",
+      "blockClass": "catImages"
+    }
+  },
+  "flex-layout.col#cat3": {
+    "children": ["image#cat3"]
+  },
+  "image#cat3": {
+    "props": {
+      "src": "https://rogamx.vteximg.com.br/arquivos/cat-salas.png",
+      "link": "/salas",
+      "blockClass": "catImages"
+    }
+  },
+  "flex-layout.col#cat4": {
+    "children": ["image#cat4"]
+  },
+  "image#cat4": {
+    "props": {
+      "src": "https://rogamx.vteximg.com.br/arquivos/cat-electronica.png",
+      "link": "/electronica",
+      "blockClass": "catImages"
+    }
+  },
+  "flex-layout.col#cat5": {
+    "children": ["image#cat5"]
+  },
+  "image#cat5": {
+    "props": {
+      "src": "https://rogamx.vteximg.com.br/arquivos/cat-articulos.png",
+      "link": "/temporada",
+      "blockClass": "catImages"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "¡Promociones de la semana!",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#subtitle-text": {
+    "props": {
+      "text": "Hogar y línea blanca",
+      "blockClass": "sub-text"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "flex-layout.row#bannerFull": {
+    "children": ["flex-layout.col#bannerFull1"],
+    "props": {
+      "blockClass": "full-banner"
+    }
+  },
+  "flex-layout.col#bannerFull1": {
+    "children": ["image#banner1"]
+  },
+  "image#banner1": {
+    "props": {
+      "src": "https://rogamx.vtexassets.com/assets/vtex.file-manager-graphql/images/07921046-82e7-4104-89da-107e67b50401___4892984770c5a45217125b2d201a71f5.png",
+      "link": "https://clxt.ch/creditovillarrealINBOX",
+      "blockClass": "bannerFull-img"
+    }
+  },
+  "flex-layout.row#bannerPair": {
+    "title": "Banners [Row]",
+    "props": {
+      "blockClass": "pair-banner"
+    },
+    "children": ["flex-layout.col#bannerPair1", "flex-layout.col#bannerPair2"]
+  },
+  "flex-layout.col#bannerPair1": {
+    "props": {
+      "blockClass": "pair-banner1"
+    },
+    "children": ["image#banPa1"]
+  },
+  "image#banPa1": {
+    "props": {
+      "src": "https://rogamx.vtexassets.com/assets/vtex.file-manager-graphql/images/b87d4296-530c-4d52-a2bb-fb53318e35c8___faefe2f9844fd90cedba43ed84370420.jpg",
+      "link": "/horarios",
+      "blockClass": "bannerPair-img1"
+    }
+  },
+  "flex-layout.col#bannerPair2": {
+    "props": {
+      "blockClass": "pair-banner2"
+    },
+    "children": [
+      "image#banPa2",
+      "countdown#SalasRecamaras"
+    ]
+  },
+  "image#banPa2": {
+    "props": {
+      "src": "https://rogamx.vtexassets.com/assets/vtex.file-manager-graphql/images/1b137372-bf94-48dd-9ac8-be6d43a0bcfc___3725edb58aed78e312d04f325ce2b4a4.jpg",
+      "link": "https://cupones.villarrealmuebles.com/#/",
+      "blockClass": "bannerPair-img2"
+    }
+  },
+  "countdown#SalasRecamaras": {
+    "title": "Countdown",
+    "props": {
+      "targetDate": "03/31/2021, 00:00:00 AM",
+      "blockClass": "SalasRecamaras"
+    }
+  }
+}

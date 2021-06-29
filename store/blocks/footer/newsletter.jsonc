@@ -1,0 +1,9 @@
+{
+  "newsletter": {
+      "props": {
+          "label": "Suscríbete a Nuestro Boletín de Noticias",
+          "placeholder": "Introduce tu mail",
+          "submit": "Suscribirme"
+      }
+  }
+}

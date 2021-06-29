@@ -1,0 +1,59 @@
+{
+    "store.custom#como-comprar":{
+        "blocks":[
+            "flex-layout.row#titcomo",
+            "flex-layout.row#txtcomo",
+            "flex-layout.row#video-texto"
+            
+        ]
+    },
+
+    "flex-layout.row#titcomo":{
+        "children":[
+            "rich-text#titcc"
+        ]          
+    },"rich-text#titcc":{
+        "props":{
+            "textPosition": "CENTER",
+            "text": "# ¿Cómo Comprar?",
+            "blockClass":"titinst"
+        }
+    },
+
+    "flex-layout.row#video-texto":{
+        "children":[
+            "flex-layout.col#video"
+            
+        ]
+    }, "flex-layout.col#video":{
+        "children":[
+            "video#comocompar"
+        ],"props":{
+            "horizontalAlign":"CENTER"
+        }
+    },
+    "video#comocompar":{
+        "props":{
+            "width":"100%",
+            "height": 420,
+            "loop":false,
+            "autoPlay": true,
+            "muted": false,
+            "src":"https://www.youtube.com/watch?v=-HiVlUnOFXo"
+
+        }
+    },"flex-layout.row#txtcomo":{
+        "children":[
+            "rich-text#txtvid"
+        ],"props":{
+          "horizontalAlign":"CENTER"  
+        }
+    },"rich-text#txtvid":{
+        "props":{
+            "text": "### Compra en línea y obtén los benefícios que tenemos para tí: \n -Flete gratis \n -Entregas inmediatas \n -Compras sin salir de tu domicilio \n-Ahorros / Descuentos",
+            "textPosition":"CENTER"
+        }   
+    }
+
+
+}

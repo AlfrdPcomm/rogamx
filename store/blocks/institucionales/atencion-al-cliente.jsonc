@@ -1,0 +1,63 @@
+{
+    "store.custom#atencion-al-cliente": {
+        "blocks":[
+            "flex-layout.row#titatcn",
+            "flex-layout.row#contatencion",
+            "flex-layout.row#imageatcn"
+        ]            
+      },
+
+      "flex-layout.row#titatcn":{
+          "children":[
+              "rich-text#titatcn"
+          ]
+      },"rich-text#titatcn":{
+          "props":{
+              "text":"# Atención Al Cliente",
+              "textPosition": "CENTER"
+          }
+      },
+
+      "flex-layout.row#contatencion":{
+          "children":[
+              "flex-layout.col#concontat"
+          ]
+      },"flex-layout.col#concontat":{
+          "children":[
+            "flex-layout.row#ticonat",
+            "flex-layout.row#txconat"
+          ]
+      },"flex-layout.row#ticonat":{
+          "children":[
+            "rich-text#tcat"
+          ]
+      },"rich-text#tcat":{
+          "props":{
+            "text": "### Grupo Roga te agradece tus comentarios",
+            "textPosition":"CENTER"
+          }
+      },
+      "flex-layout.row#txconat":{
+        "children":[
+            "rich-text#txtatencion"
+        ]
+      },
+
+      "flex-layout.row#imageatcn":{
+          "children":[
+            "image#atencion"            
+          ]
+      },
+      "image#atencion":{
+          "props":{
+              "src": "https://rogamx.myvtex.com/arquivos/atencion-cliente.png"
+          }
+      },
+       "rich-text#txtatencion":{
+          "props":{
+            "text":"Con gusto te contestaremos en breve.\n **E-mail:** ventasenlinea@gruporoga.com \nComunícate con nosotros a través de **WhatsApp** 614 241 4225 ",
+            "textPosition":"CENTER"
+          }
+      }
+
+}

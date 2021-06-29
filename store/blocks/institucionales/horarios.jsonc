@@ -1,0 +1,195 @@
+{
+    "store.custom#horarios":{
+        "blocks":[
+            "flex-layout.row#franja1",
+            "flex-layout.row#franja2",
+            "flex-layout.row#franja3",
+            "flex-layout.row#franja4",
+            "flex-layout.row#franja5",
+            "flex-layout.row#franja6"
+        ]
+
+    },
+
+    "flex-layout.row#franja1":{
+        "children":[
+            "rich-text#titulo"
+        ],"props":{
+            "blockClass":"titinst"
+        }        
+    },
+
+    "rich-text#titulo":{
+        "props":{
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "text": "# Horarios \n ## Conoce las sucursales que estarán abiertas y los horarios de cada una para poder atenderte."
+        }
+    },
+    
+    "flex-layout.row#franja2":{
+        "children":[
+            "flex-layout.col#horario1",
+            "flex-layout.col#horario2"
+        ]
+    },
+
+    "flex-layout.row#franja3":{
+        "children":[
+            "flex-layout.col#horario3",
+            "flex-layout.col#horario4"
+        ]
+    },
+
+    "flex-layout.row#franja4":{
+        "children":[
+            "flex-layout.col#horario5",
+            "flex-layout.col#horario6"
+        ]
+    },
+
+    "flex-layout.row#franja5":{
+        "children":[
+            "flex-layout.col#horario7",
+            "flex-layout.col#horario8"
+        ]
+    },
+
+    "flex-layout.row#franja6":{
+        "children":[
+            "flex-layout.col#horario9",
+            "flex-layout.col#horario10"
+        ]
+    },
+
+    "flex-layout.col#horario1":{
+        "children":[
+            "image#horario1"
+        ]
+    },
+
+    "image#horario1": {
+        "props": {
+          "src": "https://rogamx.vtexassets.com/assets/vtex.file-manager-graphql/images/b87d4296-530c-4d52-a2bb-fb53318e35c8___faefe2f9844fd90cedba43ed84370420.jpg",
+          "blockClass": "horarios"
+        }
+    },
+
+    "flex-layout.col#horario2":{
+        "children":[
+            "image#horario2"
+        ]
+    },
+
+    "image#horario2": {
+        "props": {
+            "src": "https://rogamx.vtexassets.com/assets/vtex.file-manager-graphql/images/b87d4296-530c-4d52-a2bb-fb53318e35c8___faefe2f9844fd90cedba43ed84370420.jpg",
+            "blockClass": "horarios"
+        }
+    },
+
+    "flex-layout.col#horario3":{
+        "children":[
+            "image#horario3"
+        ]
+    },
+
+    "image#horario3": {
+        "props": {
+            "src": "https://rogamx.vtexassets.com/assets/vtex.file-manager-graphql/images/b87d4296-530c-4d52-a2bb-fb53318e35c8___faefe2f9844fd90cedba43ed84370420.jpg",
+            "blockClass": "horarios"
+        }
+    },
+
+    "flex-layout.col#horario4":{
+        "children":[
+            "image#horario4"
+        ]
+    },
+
+    "image#horario4": {
+        "props": {
+            "src": "https://rogamx.vtexassets.com/assets/vtex.file-manager-graphql/images/b87d4296-530c-4d52-a2bb-fb53318e35c8___faefe2f9844fd90cedba43ed84370420.jpg",
+            "blockClass": "horarios"
+        }
+    },
+
+    "flex-layout.col#horario5":{
+        "children":[
+            "image#horario5"
+        ]
+    },
+
+    "image#horario5": {
+        "props": {
+            "src": "https://rogamx.vtexassets.com/assets/vtex.file-manager-graphql/images/b87d4296-530c-4d52-a2bb-fb53318e35c8___faefe2f9844fd90cedba43ed84370420.jpg",
+            "blockClass": "horarios"
+        }
+    },
+
+    "flex-layout.col#horario6":{
+        "children":[
+            "image#horario6"
+        ]
+    },
+
+    "image#horario6": {
+        "props": {
+            "src": "https://rogamx.vtexassets.com/assets/vtex.file-manager-graphql/images/b87d4296-530c-4d52-a2bb-fb53318e35c8___faefe2f9844fd90cedba43ed84370420.jpg",
+            "blockClass": "horarios"
+        }
+    },
+
+    "flex-layout.col#horario7":{
+        "children":[
+            "image#horario7"
+        ]
+    },
+
+    "image#horario7": {
+        "props": {
+            "src": "https://rogamx.vtexassets.com/assets/vtex.file-manager-graphql/images/b87d4296-530c-4d52-a2bb-fb53318e35c8___faefe2f9844fd90cedba43ed84370420.jpg",
+            "blockClass": "horarios"
+        }
+    },
+
+    "flex-layout.col#horario8":{
+        "children":[
+            "image#horario8"
+        ]
+    },
+
+    "image#horario8": {
+        "props": {
+            "src": "https://rogamx.vtexassets.com/assets/vtex.file-manager-graphql/images/b87d4296-530c-4d52-a2bb-fb53318e35c8___faefe2f9844fd90cedba43ed84370420.jpg",
+            "blockClass": "horarios"
+        }
+    },
+
+    "flex-layout.col#horario9":{
+        "children":[
+            "image#horario9"
+        ]
+    },
+
+    "image#horario9": {
+        "props": {
+            "src": "https://rogamx.vtexassets.com/assets/vtex.file-manager-graphql/images/b87d4296-530c-4d52-a2bb-fb53318e35c8___faefe2f9844fd90cedba43ed84370420.jpg",
+            "blockClass": "horarios"
+        }
+    },
+
+    "flex-layout.col#horario10":{
+        "children":[
+            "image#horario10"
+        ]
+    },
+
+    "image#horario10": {
+        "props": {
+            "src": "https://rogamx.vtexassets.com/assets/vtex.file-manager-graphql/images/b87d4296-530c-4d52-a2bb-fb53318e35c8___faefe2f9844fd90cedba43ed84370420.jpg",
+            "blockClass": "horarios"
+        }
+    }
+
+}

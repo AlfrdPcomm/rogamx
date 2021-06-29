@@ -1,0 +1,14 @@
+{
+  "link#ApplyForCredit": {
+    "props": {
+      "href": "https://login.muebleriaselpasito.com/#/l/1",
+      "label": "Solicita tu Crédito",
+      "target": "_blank",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "secondary"
+      },
+      "blockClass": "ApplyForCredit"
+    }
+  }
+}

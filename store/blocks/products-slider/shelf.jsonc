@@ -1,0 +1,13 @@
+{
+  "shelf.relatedProducts": {
+    "props": {
+      "recommendation": "view",
+      "productList": {
+        "titleText": "Podría interesarte",
+        "itemsPerPage": 5,
+        "gap": "ph5"
+      }
+    },
+    "blocks": ["product-summary.shelf"]
+  }
+}

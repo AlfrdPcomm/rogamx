@@ -1,0 +1,40 @@
+{
+  "vtex.menu@2.x:menu#info-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": ["menu-item#info-home", "menu-item#info-home2"]
+  },
+  "menu-item#info-home": {
+    "props": {
+      "id": "menu-item-info-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/planes-de-venta",
+        "noFollow": false,
+        "tagTitle": "Planes de Venta",
+        "text": "Planes de Venta"
+      },
+      "blockClass": ["MenuItemInfo", "MenuItemInfoFirst"]
+    }
+  },
+  "menu-item#info-home2": {
+    "props": {
+      "id": "menu-item-info-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://clxt.ch/creditovillarrealINBOX",
+        "noFollow": false,
+        "tagTitle": "Solicitar Crédito",
+        "text": "Solicitar Crédito"
+      },
+      "blockClass": ["MenuItemInfo"]
+    }
+  }
+}

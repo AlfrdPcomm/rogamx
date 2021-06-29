@@ -1,0 +1,97 @@
+{
+    "store.custom#garantias": {
+        "blocks": [
+          "flex-layout.row#titinstitucional",
+          "flex-layout.row#contenido",
+          "flex-layout.row#restonic",
+          "flex-layout.row#contenido1",
+          "flex-layout.row#mimo",
+          "flex-layout.row#contenido2"
+
+        ]
+      },
+
+      "flex-layout.row#titinstitucional":{
+        "children":[
+          "rich-text#tituloinst"
+        ],"props":{
+          "horizontalAlign":"CENTER",
+          "blockClass":"titinst"
+        }
+      },
+      "rich-text#tituloinst":{
+        "props":{
+          "textPosition":"CENTER",
+          "blockClass":"titinst"
+        }
+      },
+
+      "flex-layout.row#contenido":{
+        "children":[
+          "rich-text#continst"
+        ],"props":{
+          "horizontalAlign":"CENTER"
+        }      
+      },
+      "rich-text#continst":{
+        "props":{
+          "blockClass":"txtinst"
+        }
+      },
+
+      "flex-layout.row#restonic":{
+        "children":[
+          "image#restonic"
+        ],"props":{
+          "horizontalAlign":"CENTER"
+        } 
+      },
+      "image#restonic":{
+        "props":{
+          "src": "https://rogamx.myvtex.com/arquivos/restonic.png"
+        }
+      },
+
+      "flex-layout.row#contenido1":{
+        "children":[
+          "rich-text#continst1"
+        ],"props":{
+          "horizontalAlign":"CENTER"
+        }      
+      },
+      "rich-text#continst1":{
+        "props":{
+          "blockClass":"txtinst"
+        }
+      },
+
+
+
+
+      "flex-layout.row#mimo":{
+        "children":[
+          "image#mimo"
+        ],"props":{
+          "horizontalAlign":"CENTER"
+        } 
+      },
+      "image#mimo":{
+        "props":{
+          "src": "https://rogamx.myvtex.com/arquivos/mimo.png"
+        }
+      },
+
+      "flex-layout.row#contenido2":{
+        "children":[
+          "rich-text#continst2"
+        ],"props":{
+          "horizontalAlign":"CENTER"
+        }      
+      },
+      "rich-text#continst2":{
+        "props":{
+          "blockClass":"txtinst"
+        }
+      }
+
+}

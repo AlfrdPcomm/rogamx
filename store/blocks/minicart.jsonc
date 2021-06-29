@@ -1,0 +1,26 @@
+{
+  "flex-layout.row#AddToCart": {
+    "props": {
+      "blockClass": "ProductItemAddToCart"
+    },
+    "children": [
+      "add-to-cart-button"
+    ]
+  },
+  "add-to-cart-button": {
+    "props": {
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "add-to-cart-button",
+      "text": "Agregar a Carrito",
+      "blockClass": "AddToCart"
+    }
+  },
+
+  "minicart.v2": {
+    "props": {
+      "customPixelEventId": "add-to-cart-button",
+      "blockClass": ["HeaderIcon"]
+    },
+    "children": ["minicart-base-content"]
+  }
+}

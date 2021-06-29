@@ -1,0 +1,160 @@
+{
+  // Desktop
+  "menu-item#MenuItemL0D-ProductsMenu": {
+    "props": {
+      "itemProps": {
+        "href": "/#",
+        "text": "Productos"
+      },
+      "blockClass": "MenuItemL0D"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#NavSubWrapperL2D-ProductsMenu"
+    ]
+  },
+  "vtex.menu@2.x:submenu#NavSubWrapperL2D-ProductsMenu": {
+    "props": {
+      "width": "100%",
+      "blockClass": "ProductsMenuDesktop"
+    },
+    "children": [
+      "flex-layout.row#RowL2D-ProductsMenu"
+    ]
+  },
+  "flex-layout.row#RowL2D-ProductsMenu": {
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "colGap": 2
+    },
+    "children": [    
+      "flex-layout.col#renglon"     
+    ]
+  },
+
+  "flex-layout.col#renglon":{
+    "children":[
+      "flex-layout.row#categorias1-7",
+      "flex-layout.row#categorias8-9"
+    ]
+  },
+  
+  "flex-layout.row#categorias1-7":{
+    "children":[
+      "flex-layout.col#OptionsL2D-ProductsMenu-01",
+      "flex-layout.col#OptionsL2D-ProductsMenu-02",
+      "flex-layout.col#OptionsL2D-ProductsMenu-03",
+      "flex-layout.col#OptionsL2D-ProductsMenu-04",
+      "flex-layout.col#OptionsL2D-ProductsMenu-05"
+               
+    ],"props":{
+      "fullWidth": true,
+      "colSizing": "auto",
+      "colGap": 2
+    }
+  },
+  "flex-layout.row#categorias8-9":{
+    "children":[     
+      "flex-layout.col#OptionsL2D-ProductsMenu-06",
+      "flex-layout.col#OptionsL2D-ProductsMenu-07",
+      "flex-layout.col#OptionsL2D-ProductsMenu-08",  
+      "flex-layout.col#OptionsL2D-ProductsMenu-09",
+      "flex-layout.col#OptionsL2D-ProductsMenu-10"
+    ],"props":{
+      "fullWidth": true,
+      "colSizing": "auto",
+      "colGap": 2
+    }
+  },
+  "flex-layout.col#OptionsL2D-ProductsMenu-10": {
+    "props": {
+      "blockClass": "ProductsMenuColumn",
+      "width":"15%"
+    },
+    "children": [
+      
+    ]
+  },
+
+
+
+  "flex-layout.col#OptionsL2D-ProductsMenu-01": {
+    "props": {
+      "blockClass": "ProductsMenuColumn"
+    },
+    "children": [
+      "menu-item#MenuItemL2G-ProductsMenu-Category",
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-01"
+    ]
+  },
+  "flex-layout.col#OptionsL2D-ProductsMenu-02": {
+    "props": {
+      "blockClass": "ProductsMenuColumn"
+    },
+    "children": [
+      "menu-item#MenuItemL2G-ProductsMenu-Category",
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-02"
+    ]
+  },
+  "flex-layout.col#OptionsL2D-ProductsMenu-03": {
+    "props": {
+      "blockClass": "ProductsMenuColumn"
+    },
+    "children": [
+      "menu-item#MenuItemL2G-ProductsMenu-Category",
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-03"
+    ]
+  },
+  "flex-layout.col#OptionsL2D-ProductsMenu-04": {
+    "props": {
+      "blockClass": "ProductsMenuColumn"
+    },
+    "children": [
+      "menu-item#MenuItemL2G-ProductsMenu-Category",
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-04"
+    ]
+  },
+  "flex-layout.col#OptionsL2D-ProductsMenu-05": {
+    "props": {
+      "blockClass": "ProductsMenuColumn"
+    },
+    "children": [
+      "menu-item#MenuItemL2G-ProductsMenu-Category",
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-05"
+    ]
+  },
+  "flex-layout.col#OptionsL2D-ProductsMenu-06": {
+    "props": {
+      "blockClass": "ProductsMenuColumn"
+    },
+    "children": [
+      "menu-item#MenuItemL2G-ProductsMenu-Category",
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-06"
+    ]
+  },
+  "flex-layout.col#OptionsL2D-ProductsMenu-07": {
+    "props": {
+      "blockClass": "ProductsMenuColumn"
+    },
+    "children": [
+      "menu-item#MenuItemL2G-ProductsMenu-Category",
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-07"
+    ]
+  },"flex-layout.col#OptionsL2D-ProductsMenu-08": {
+    "props": {
+      "blockClass": "ProductsMenuColumn"
+    },
+    "children": [
+      "menu-item#MenuItemL2G-ProductsMenu-Category",
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-08"
+    ]
+  },"flex-layout.col#OptionsL2D-ProductsMenu-09": {
+    "props": {
+      "blockClass": "ProductsMenuColumn"
+    },
+    "children": [
+      "menu-item#MenuItemL2G-ProductsMenu-Category",
+      "vtex.menu@2.x:menu#MenuL2G-ProductsMenu-09"
+    ]
+  }
+}

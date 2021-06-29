@@ -1,0 +1,81 @@
+.styledLinkContent {
+  color: #3f3f40;
+}
+
+@media screen and (min-width: 1024px) {
+  :global(.vtex-flex-layout-0-x-flexRow--menu-header) .styledLinkContent {
+    color: white;
+  }
+}
+
+.submenuWrapper--ProductsMenuDesktop {
+  border-bottom: none;
+}
+.submenuWrapper--ProductsMenuDesktop::after {
+  content: "";
+  width: 100vw;
+  height: 100%;
+  border-bottom: 2px solid #dadada;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: -1;
+  background-color: white;
+  transform: translateX(-50vw);
+}
+.submenuWrapper .styledLinkContent {
+  color: #3f3f40;
+}
+
+
+.submenuAccordion--SubmenuL2M-ProductsMenu {
+  flex-direction: column;
+}
+
+.menuContainer--MenuDrawer .styledLinkContainer--MenuItemInfoFirst {
+  padding-top: 1rem;
+  border-top: 1px solid #dadada;
+  margin-top: 1rem;
+}
+.menuContainer--MenuDrawer .styledLinkContent--MenuItemInfo {
+  color: #666666;
+}
+
+.styledLinkContent--MenuItemL0M {
+  font-weight: 700;
+  color: #2d4b9a;
+}
+
+.styledLinkContainer--MenuItemL1M {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.styledLinkContent--MenuItemL1M {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #dadada;
+  margin-top: -1px;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.submenuAccordion--SubmenuL2M-ProductsMenu .menuItem--ViewAll .styledLinkContent {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #acacac;
+}
+
+.submenu--ProductsMenuDesktop {
+  justify-content: flex-start;
+}
+
+.menuItem--Category .styledLinkContent {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2d4b9a;
+}
+
+.styledLink--MenuL2G-ByCategory {
+  font-size: 1rem;
+}

@@ -1,0 +1,247 @@
+{
+    "store.custom#planes-de-venta":{
+        "blocks":[
+            "flex-layout.row#titpv",
+            "flex-layout.row#txtcon",
+            "flex-layout.row#contado-apartado",
+            "flex-layout.row#credito-credmen",
+            "flex-layout.row#fantastico"            
+        ]
+    },
+    
+    "flex-layout.row#titpv":{
+        "children":[
+            "rich-text#tit"
+        ]
+    },"rich-text#tit":{
+        "props":{
+            "text":"## Planes de venta",
+            "textPosition":"CENTER",
+            "blockClass": "titinst"
+        }
+    },
+    
+    "flex-layout.row#txtcon":{
+        "children":[
+            "flex-layout.col#textos"
+        ]
+    },"flex-layout.col#textos":{
+        "children":[
+            "flex-layout.row#txtc",
+            "flex-layout.row#txtbold"
+        ]
+    },"flex-layout.row#txtc":{
+        "children":[
+            "rich-text#txtc"
+        ]
+    },"flex-layout.row#txtbold":{
+        "children":[
+            "rich-text#txtbold"
+        ]
+    },
+
+    "rich-text#txtc":{
+        "props":{
+            "text":"Contamos con diferentes opciones de venta solo en nuestras tiendas físicas.",
+            "textPosition":"CENTER",
+            "blockClass": "txtinstitucionales"
+        }
+    },"rich-text#txtbold":{
+        "props":{
+            "text":"**¡Conoce nuestros planes y elige el que más te convenga!**",
+            "textPosition":"CENTER",
+            "blockClass": "txtinstitucionales"
+        }
+    },
+    
+    "flex-layout.row#contado-apartado":{
+        "children":[
+            "flex-layout.col#contado",
+            "flex-layout.col#apartado"            
+        ],"props":{
+            "blockClass":"rowinst"
+        }
+    },    
+    "flex-layout.col#contado":{
+        "children":[
+            "flex-layout.row#imgi",
+            "flex-layout.row#txtd"
+        ]
+    },
+    "flex-layout.row#imgi":{
+        "children":[
+            "image#contado"
+        ],"props":{
+            "horizontalAlign": "center"
+        }
+    },"image#contado":{
+        "props":{
+            "src": "https://rogamx.myvtex.com/arquivos/contado.png"
+        }
+    },"flex-layout.row#txtd":{
+        "children":[
+            "rich-text#td"
+        ],"props":{
+            "horizontalAlign": "center"
+        }
+    },"rich-text#td":{
+        "props":{
+            "text":"### CONTADO\nTenemos el precio más bajo de la ciudad. \nVisítanos y te sorprenderás de todo lo que puedes ahorrar.\n*Disponible en Tienda En Línea y Tiendas Físicas.",
+            "blockClass":"txtpv",
+            "textPosition":"CENTER"
+        }
+    },
+
+
+
+    "flex-layout.row#apartado":{
+        "children":[
+            "flex-layout.col#apartado"
+                        
+        ],"props":{
+            "blockClass":"rowinst"
+        }
+    },"flex-layout.col#apartado":{
+        "children":[
+            "flex-layout.row#imgia",
+            "flex-layout.row#txtda"            
+        ]
+    },
+    "flex-layout.row#imgia":{
+        "children":[
+            "image#apartado"
+        ],"props":{
+            "horizontalAlign": "center"
+        }
+    },"image#apartado":{
+        "props":{
+            "src": "https://rogamx.myvtex.com/arquivos/apartado.png"
+        }
+    },"flex-layout.row#txtda":{
+        "children":[
+            "rich-text#tda"
+        ],"props":{
+            "horizontalAlign": "center"
+        }
+    },"rich-text#tda":{
+        "props":{
+            "text":"### APARTADO\nTenemos el precio más bajo de la ciudad. \nVisítanos y te sorprenderás de todo lo que puedes ahorrar.\n*Disponible en Tienda En Línea y Tiendas Físicas.",
+            "blockClass":"txtpv",
+            "textPosition":"CENTER"
+        }
+    },
+
+
+
+
+
+    "flex-layout.row#credito-credmen":{
+        "children":[
+            "flex-layout.col#credito",
+            "flex-layout.col#credmen"            
+        ],"props":{
+            "blockClass":"rowinst"
+        }
+    },"flex-layout.col#credito":{
+        "children":[
+            "flex-layout.row#imgic",
+            "flex-layout.row#txtdc"
+        ]
+    },
+    
+    "flex-layout.row#imgic":{
+        "children":[
+            "image#credito"
+        ],"props":{
+            "horizontalAlign": "center"
+        }
+    },"image#credito":{
+        "props":{
+            "src": "https://rogamx.myvtex.com/arquivos/credito.png"
+        }
+    },"flex-layout.row#txtdc":{
+        "children":[
+            "rich-text#tdc"
+        ],"props":{
+            "horizontalAlign": "center"
+        }
+    },"rich-text#tdc":{
+        "props":{
+            "text":"### CRÉDITO\nTenemos el precio más bajo de la ciudad. \nVisítanos y te sorprenderás de todo lo que puedes ahorrar.\n*Disponible en Tienda En Línea y Tiendas Físicas.",
+            "blockClass":"txtpv",
+            "textPosition":"CENTER"
+        }
+    },    
+
+
+    "flex-layout.col#credmen":{
+        "children":[
+            "flex-layout.row#imgicm",
+            "flex-layout.row#txtdcm"                                              
+        ],"props":{
+            "blockClass":"rowinst"
+        }
+    },
+    
+    "flex-layout.row#imgicm":{
+        "children":[
+            "image#credmen"
+        ],"props":{
+            "horizontalAlign": "center"
+        }
+    },"image#credmen":{
+        "props":{
+            "src": "https://rogamx.myvtex.com/arquivos/pagamenos.png"
+        }
+    },"flex-layout.row#txtdcm":{
+        "children":[
+            "rich-text#tdcm"
+        ],"props":{
+            "horizontalAlign": "center"
+        }
+    },"rich-text#tdcm":{
+        "props":{
+            "text":"### CRÉDITO PAGA MENOS\nTenemos el precio más bajo de la ciudad. \nVisítanos y te sorprenderás de todo lo que puedes ahorrar.\n*Disponible en Tienda En Línea y Tiendas Físicas.",
+            "blockClass":"txtpv",
+            "textPosition":"CENTER"
+        }
+    },
+
+    "flex-layout.row#fantastico":{
+        "children":[
+            "flex-layout.col#fanta"            
+        ],"props":{
+            "blockClass":"rowinst"
+        }
+    },"flex-layout.col#fanta":{
+        "children":[
+            "flex-layout.row#imgf",
+            "flex-layout.row#txtdf"
+        ]
+    },
+    "flex-layout.row#imgf":{
+        "children":[
+            "image#fantastico"
+        ],"props":{
+            "horizontalAlign": "center"
+        }
+    },"image#fantastico":{
+        "props":{
+            "src": "https://rogamx.myvtex.com/arquivos/fantastico.png"
+        }
+    },"flex-layout.row#txtdf":{
+        "children":[
+            "rich-text#tdf"
+        ],"props":{
+            "horizontalAlign": "center"
+        }
+    },"rich-text#tdf":{
+        "props":{
+            "text":"### CRÉDITO FANTÁSTICO\nTenemos el precio más bajo de la ciudad. \nVisítanos y te sorprenderás de todo lo que puedes ahorrar.\n*Disponible en Tienda En Línea y Tiendas Físicas.",
+            "blockClass":"txtpv",
+            "textPosition":"CENTER"
+        }
+    }
+
+    
+}

@@ -1,0 +1,56 @@
+{
+  "flex-layout.row#ProductDetailDeals": {
+    "props": {
+      "blockClass": "ProductDetailDeals"
+    },
+    "children": [
+      "flex-layout.col#ProductDetailDeals"
+    ]
+  },
+  "flex-layout.col#ProductDetailDeals": {
+    "children": [
+      "flex-layout.col#ProductDetailDeals-01",
+      "flex-layout.col#ProductDetailDeals-02"
+    ]
+  },
+  "flex-layout.col#ProductDetailDeals-01": {
+    "props": {
+      "blockClass": "ProductDetailDeals"
+    },
+    "children": [
+      "image#ProductDetailDeals-01",
+      "rich-text#ProductDetailDeals-01"
+    ]
+  },
+  "image#ProductDetailDeals-01": {
+    "props": {
+      "src": "assets/ProductDetailDeal01.jpg"
+    }
+  },
+  "rich-text#ProductDetailDeals-01": {
+    "props": {
+      "text": "Entrega en 24 horas",
+      "blockClass": "ProductDetailDeals"
+    }
+  },
+  "flex-layout.col#ProductDetailDeals-02": {
+    "props": {
+      "blockClass": "ProductDetailDeals"
+    },
+    "children": [
+      "image#ProductDetailDeals-02",
+      "rich-text#ProductDetailDeals-02"
+    ]
+  },
+  "image#ProductDetailDeals-02": {
+    "props": {
+      "src": "assets/ProductDetailDeal02.jpg"
+    }
+  },
+  "rich-text#ProductDetailDeals-02": {
+    "props": {
+      "text": "Producto garantizado",
+      "blockClass": "ProductDetailDeals"
+    }
+  }
+}

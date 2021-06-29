@@ -1,0 +1,100 @@
+.flexRow--main-header-mobile,
+.flexRow--bottom-header-mobile {
+  background: #fff100;
+}
+
+.flexRow--main-header-mobile {
+  padding-top: 0.5rem;
+}
+
+.flexRowContent--bottom-header-mobile {
+  align-items: center;
+}
+
+.flexRow--main-header {
+  height: 75px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: #fff100;
+}
+
+.flexRowContent--main-header {
+  align-items: center;
+  position: relative;
+  background-color: transparent;
+}
+.flexRowContent--main-header .stretchChildrenWidth {
+  margin-right: 30px;
+}
+.flexRowContent--main-header .stretchChildrenWidth:last-child {
+  margin-right: 0;
+}
+
+.flexRow--menu-header {
+  position: relative;
+  background: #2d4b9a;
+}
+.flexRow--menu-header::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 0;
+  z-index: 12;
+  background-color: white;
+  box-shadow: 0 43px 0 white;
+}
+.flexRow--menu-header::after {
+  content: "";
+  width: 45%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #da1f28;
+}
+.flexRow--menu-header :global(.vtex-store-components-3-x-container) {
+  position: relative;
+  z-index: 10;
+}
+
+.flexCol--LogoDesktop {
+  width: 450px !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flexCol--buscadorMob {
+  padding: 0 0 0 5px;
+}
+
+.flexCol--favsBtn {
+  width: 40px !important;
+  height: 40px;
+  padding: 0;
+}
+
+.flexColChild--favsBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRow--bottom-header-mobile {
+  padding-bottom: 0.75rem;
+}
+
+.flexRow--bottom-header {
+  height: 75px;
+  background: #fff100;
+}
+
+.flexRowContent--bottom-header {
+  justify-content: flex-end;
+  position: relative;
+}

@@ -1,0 +1,304 @@
+{
+  "store.search": {
+      "props": {
+          "context": {
+              "maxItemsPerPage": 48,
+              "orderByField": "OrderByScoreDESC",
+              "skusFilter": "FIRST_AVAILABLE",
+              "simulationBehavior": "skip",
+              "installmentCriteria": "MAX_WITHOUT_INTEREST",
+              "__unstableProductOriginVtex": true,
+              "hideUnavailableItems": "true"
+          }
+      },
+      "blocks": ["search-result-layout"]
+  },
+  "store.search#department": {
+      "props": {
+          "context": {
+              "maxItemsPerPage": 48,
+              "orderByField": "OrderByScoreDESC",
+              "skusFilter": "FIRST_AVAILABLE",
+              "simulationBehavior": "skip",
+              "installmentCriteria": "MAX_WITHOUT_INTEREST",
+              "__unstableProductOriginVtex": true,
+              "hideUnavailableItems": "true"
+          }
+      },
+      "blocks": ["search-result-layout"]
+  },
+  "store.search#category": {
+      "props": {
+          "context": {
+              "maxItemsPerPage": 48,
+              "orderByField": "OrderByScoreDESC",
+              "skusFilter": "FIRST_AVAILABLE",
+              "simulationBehavior": "skip",
+              "installmentCriteria": "MAX_WITHOUT_INTEREST",
+              "__unstableProductOriginVtex": true,
+              "hideUnavailableItems": "true"
+          }
+      },
+      "blocks": ["search-result-layout"]
+  },
+  "store.search#subcategory": {
+      "props": {
+          "context": {
+              "maxItemsPerPage": 48,
+              "orderByField": "OrderByScoreDESC",
+              "skusFilter": "FIRST_AVAILABLE",
+              "simulationBehavior": "skip",
+              "installmentCriteria": "MAX_WITHOUT_INTEREST",
+              "__unstableProductOriginVtex": true,
+              "hideUnavailableItems": "true"
+          }
+      },
+      "blocks": ["search-result-layout"]
+  },
+  "store.search#brand": {
+      "props": {
+          "context": {
+              "maxItemsPerPage": 48,
+              "orderByField": "OrderByScoreDESC",
+              "skusFilter": "FIRST_AVAILABLE",
+              "simulationBehavior": "skip",
+              "installmentCriteria": "MAX_WITHOUT_INTEREST",
+              "__unstableProductOriginVtex": true,
+              "hideUnavailableItems": "true"
+          }
+      },
+      "blocks": ["search-result-layout"]
+  },
+  // General
+  "search-result-layout": {
+      "props": {
+          "hiddenFacets": {
+              "brands": false,
+              "categories": true,
+              "priceRange": false,
+              "specificationFilters": {
+                  "hiddenFilters": ["Attribute"]
+              }
+          }
+      },
+      "blocks": [
+          "search-result-layout.mobile",
+          "search-result-layout.desktop",
+          "search-not-found-layout"
+      ]
+  },
+  "search-result-layout.mobile": {
+      "props": {
+          "pagination": "show-more",
+          "preventRouteChange": true,
+          // "showFacetQuantity": true,
+          "mobileLayout": {
+              "mode1": "small",
+              "mode2": "normal"
+          },
+          "hiddenFacets": {
+              "brands": false,
+              "categories": true,
+              "priceRange": false,
+              "specificationFilters": {
+                  "hiddenFilters": ["Attribute"]
+              }
+          },
+          "blockClass": "SearchResultLayoutMobile"
+      },
+      "children": [
+          "flex-layout.row#SearchBannerOne",
+          "search-title.v2",
+          // "flex-layout.row#PLP-Title--mobile",
+          "flex-layout.row#ProductListControlsMobile",
+          "flex-layout.row#resultsMobile"
+      ]
+  },
+  "search-result-layout.desktop": {
+      "props": {
+          "pagination": "show-more",
+          "preventRouteChange": true,
+          // "showFacetQuantity": true,
+          "mobileLayout": {
+              "mode1": "small",
+              "mode2": "normal"
+          },
+          "hiddenFacets": {
+              "brands": false,
+              "categories": true,
+              "priceRange": false,
+              "specificationFilters": {
+                  "hiddenFilters": ["Attribute"]
+              }
+          },
+          "blockClass": "SearchResultLayoutDesktop"
+      },
+      "children": [
+          "flex-layout.row#SearchBannerOne",
+          // "breadcrumb.search",
+          "flex-layout.row#did-you-mean",
+          "flex-layout.row#suggestion",
+          "flex-layout.row#resultsDesktop"
+      ]
+  },
+  "search-not-found-layout": {
+      "children": [
+          "not-found"
+      ]
+  },
+  "flex-layout.row#PLP-Title--mobile": {
+      "props": {
+          "preserveLayoutOnMobile": true,
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "horizontalAlign": "left",
+          "blockClass": "PLP-Title--mobile"
+      },
+      "children": [
+          "search-title.v2",
+          "total-products.v2"
+      ]
+  },
+  "flex-layout.row#ProductListControlsMobile": {
+      "props": {
+          "preserveLayoutOnMobile": true,
+          "preventVerticalStretch": true,
+          "colGap": 2,
+          "blockClass": ["ProductListControls", "ProductListControlMobile"]
+      },
+      "children": [
+          "drawer#DrawerFilterNavigator",
+          "order-by.v2"
+      ]
+  },
+  "flex-layout.row#ProductListControlsDesktop": {
+      "props": {
+          "preserveLayoutOnMobile": true,
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "horizontalAlign": "left",
+          "blockClass": ["ProductListControls", "ProductListControlDesktop"]
+      },
+      "children": [
+          "search-title.v2",
+          "flex-layout.col#spacer",
+          "order-by.v2"
+      ]
+  },
+  "drawer#DrawerFilterNavigator": {
+      "props": {
+          "slideDirection": "leftToRight",
+          "blockClass": "FiltersAside"
+      },
+      "blocks": [
+          "drawer-trigger#DrawerFilterNavigator"
+      ],
+      "children": [
+          "filter-navigator.v3"
+      ]
+  },
+  "drawer-trigger#DrawerFilterNavigator": {
+      "children": ["rich-text#DrawerFilterNavigator"]
+  },
+  "rich-text#DrawerFilterNavigator": {
+      "props": {
+          "text": "Filtros ",
+          "blockClass": "DrawerFilterTrigger"
+      }
+  },
+   "flex-layout.row#did-you-mean": {
+      "children": ["did-you-mean"]
+  },
+  "flex-layout.row#suggestion": {
+      "props": {
+          "marginTop": 1,
+          "marginBottom": 3,
+          "blockClass": "PLP--Suggestions"
+      },
+      "children": ["search-suggestions"]
+  },
+  "flex-layout.row#SearchBannerOne": {
+      "props": {
+        "fullWidth": true,
+        "blockClass": "SearchBannerOne"
+      },
+      "children": ["search-banner#SearchBannerOne"]
+  },
+
+  "search-banner#SearchBannerOne": {
+      "props": {
+          "area": "one",
+          "horizontalAlignment": "center",
+          "blockClass": "SearchBannerOne"
+      }
+  },
+  "flex-layout.row#resultsMobile": {
+      "props": {
+          "colGap": 7,
+          "blockClass": "ProductListResults"
+      },
+      "children": [
+          "flex-layout.col#SearchMobile"
+      ]
+  },
+  "flex-layout.row#resultsDesktop": {
+      "props": {
+          "colGap": 7,
+          "blockClass": "ProductListResults"
+      },
+      "children": [
+          "flex-layout.col#PLP-Filters",
+          "flex-layout.col#SearchDesktop"
+      ]
+  },
+  "flex-layout.col#PLP-Filters": {
+      "props": {
+          "width": "20%"
+      },
+      "children": [
+          "filter-navigator.v3"
+      ]
+  },
+  "flex-layout.col#SearchMobile": {
+      "props": {
+          "verticalAlign": "top",
+          "blockClass": "PLP-Search"
+      },
+      "children": [
+          "search-fetch-previous",
+          "search-content",
+          "search-fetch-more"
+      ]
+  },
+  "flex-layout.col#SearchDesktop": {
+    "props": {
+        "verticalAlign": "top",
+        "blockClass": "PLP-Search"
+    },
+    "children": [
+        "flex-layout.row#ProductListControlsDesktop",
+        "search-fetch-previous",
+        "search-content",
+        "search-fetch-more"
+    ]
+},
+  "search-content": {
+      "blocks": [
+          "gallery",
+          "not-found"
+      ]
+  },
+  "gallery": {
+      "props":{
+        "maxItemsPerRow":{
+          "desktop": 4,
+          "tablet": 3,
+          "phone": 2
+        },
+        "blockClass":"ProductListSearchGallery"
+      },
+      "blocks": [
+          "product-summary.shelf"
+      ]
+  }
+}

@@ -1,0 +1,16 @@
+.stackItem--product {
+  width: 100%;
+}
+
+.stackItem--ProductItemWishlist {
+  top: -5px;
+  left: auto;
+  right: 15px;
+  transform: scale(0.75);
+}
+
+.stackItem--quickview {
+  top: 30px;
+  left: auto;
+  right: 5px;
+}

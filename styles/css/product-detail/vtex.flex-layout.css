@@ -1,0 +1,63 @@
+.flexRow--ProductDetailMain {
+  margin-bottom: 2.5rem;
+}
+@media screen and (min-width: 1024px) {
+  .flexRow--ProductDetailMain {
+    margin-bottom: 5rem;
+  }
+}
+
+.flexRowContent--ProductDetailMain {
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .flexRowContent--ProductDetailMain .stretchChildrenWidth:last-child {
+    width: 100% !important;
+  }
+}
+
+.flexCol--ProductDetailInfo {
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 1024px) {
+  .flexCol--ProductDetailInfo {
+    padding-right: 3rem;
+    border-right: 1px solid #dadada;
+  }
+}
+
+.flexRow--ProductDetailPrice {
+  margin-bottom: 2rem;
+}
+
+.flexRowContent--ProductDetailPrice {
+  align-items: center;
+}
+
+.flexRow--ProductDetailShelf {
+  margin-top: 1rem;
+}
+
+.flexRow--ProductDetailDeals {
+  margin-top: 2rem;
+}
+
+.flexCol--ProductDetailDeals {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.flexCol--ProductDetailDeals .flexColChild {
+  height: auto !important;
+  display: flex;
+  align-items: center;
+}
+.flexCol--ProductDetailDeals .flexColChild:first-child {
+  width: 40px;
+  margin-right: 0.5rem;
+  justify-content: center;
+}
+
+.flexRow--PDP-Share {
+  margin-top: 1rem;
+}

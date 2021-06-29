@@ -1,0 +1,44 @@
+{
+    "store.storelocator": {
+        "blocks": [
+            "flex-layout.row#title",
+            "flex-layout.row#container"
+            // "flex-layout.row#containerCluster2"
+        ]
+    },
+    "flex-layout.row#title": {
+        "children": ["flex-layout.col#title"]
+    },
+    "flex-layout.row#container": {
+        "children": [
+            "store-list#Tiendas"
+        ]
+    },
+    "flex-layout.row#containerCluster2": {
+        "children": [
+            "store-list#Cluster2"
+        ]
+    },
+    "flex-layout.col#title": {
+        "children": ["rich-text#title"],
+        "props": {
+            "blockClass": "title",
+            "preventVerticalStretch": true
+        }
+    },
+    "rich-text#title": {
+        "props": {
+            "text": "## Tiendas"
+        }
+    },
+    "store-list#Tiendas": {
+        "props": {
+            // "filterByTag": "ElPasito"
+        }
+    },
+    "store-list#Cluster2": {
+        "props": {
+            "filterByTag": "Cluster2"
+        }
+    }
+}

@@ -1,0 +1,179 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      // "flex-layout.row#description",
+      // "flex-layout.row#specifications-title",
+      "flex-layout.row#DataSheet",
+      "flex-layout.row#ProductDetailShelf"
+    ]
+  },
+  "flex-layout.row#specifications-title": {
+    "children": [
+      "rich-text#specifications"
+    ]
+  },
+  "rich-text#specifications": {
+    "props": {
+      "text": "##### Product Specifications"
+    }
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": ["breadcrumb"]
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 0,
+      "blockClass": "ProductDetailMain"
+    },
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#ProductDetailInfo",
+      "flex-layout.col#ProductDetailCTA"
+    ]
+  },
+  "flex-layout.row#description": {
+    "props": {
+      "marginTop": 3,
+      "marginBottom": 0,
+      "blockClass": "ProductDetailDescription"
+    },
+    "children": ["product-description"]
+  },
+
+  "stack-layout": {
+    "props": {
+      "blockClass": "product"
+    },
+    "children": [
+      "flex-layout.row#product-image",
+      "product-bookmark",
+      "product-specification-badges"
+    ]
+  },
+
+  "product-specification-badges": {
+    "props": {
+      "specificationGroupName": "Group",
+      "specificationName": "On Sale",
+      "visibleWhen": "True",
+      "displayValue": "SPECIFICATION_NAME"
+    }
+  },
+
+  "flex-layout.col#stack": {
+    "props": {
+      "width": "40%",
+      "rowGap": 0
+    },
+    "children": ["stack-layout"]
+  },
+  "flex-layout.row#product-image": {
+    "props": {
+      "blockClass": "ProductDetailImages"
+    },
+    "children": ["product-images"]
+  },
+  "product-images": {
+    "props": {
+      "aspectRatio": {
+        "phone": "1:1",
+        "desktop": "auto"
+      },
+      "displayThumbnailsArrows": true
+    }
+  },
+  "flex-layout.col#ProductDetailInfo": {
+    "props": {
+      "width": "37%",
+      "verticalAlign": "top",
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "ProductDetailInfo"
+    },
+    "children": [
+      "flex-layout.row#product-name",
+      "product-identifier.product",
+      "product-rating-summary",
+      "product-separator",
+      "sku-selector",
+      "flex-layout.row#description",
+      "flex-layout.row#ProductDetailDeals"
+      // "product-assembly-options",
+      // "product-gifts"
+    ]
+  },
+  "flex-layout.col#ProductDetailCTA": {
+    "props": {
+      "verticalAlign": "top",
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "flex-layout.row#ProductDetailPrice",
+      // "flex-layout.row#list-price-savings",
+      // "flex-layout.row#selling-price",
+      //"product-installments",
+      "product-quantity",
+      "flex-layout.row#buy-button",
+      "modal-trigger#ShippingSimulator",
+      "link#ApplyForCredit",
+      // "availability-subscriber"
+      "flex-layout.row#PDP-Share"
+    ]
+  },
+
+  "flex-layout.row#product-name": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": ["vtex.store-components:product-name"]
+  },
+
+  "sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true
+    }
+  },
+
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 4
+    },
+    "children": ["add-to-cart-button"]
+  },
+
+  "flex-layout.row#PDP-Share": {
+    "props": {
+      "blockClass": "PDP-Share"
+    },
+    "children": [
+      "share#default"
+    ]
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false
+      }
+    }
+  },
+
+  "flex-layout.row#ProductDetailShelf": {
+    "props": {
+      "blockClass": "ProductDetailShelf"
+    },
+    "children": [
+      "shelf.relatedProducts"
+    ]
+  }
+}

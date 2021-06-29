@@ -1,0 +1,51 @@
+.footerLayout {
+  margin-top: 3rem;
+}
+
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--FooterMobile2 {
+  padding-top: 16px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--menu-row) {
+  border-top: 3px solid #2d4b9a;
+  border-bottom: 3px solid #2d4b9a;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--credits) .vtex-store-components-3-x-container {
+  padding: 0;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--footerContact) {
+  padding: 0 15px;
+}
+
+:global(.vtex-menu-2-x-menuContainerNav--footerLinks) :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin: 0;
+}
+
+:global(.vtex-rich-text-0-x-wrapper--footer-title) {
+  color: #2d4b9a;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1024px) {
+  :global(.vtex-store-footer-2-x-acceptedPaymentMethodContainer) {
+    margin: 0 30px;
+  }
+
+  :global(.vtex-store-footer-2-x-socialNetworkWrapper) {
+    margin: 0 30px;
+  }
+
+  :global(.vtex-store-components-3-x-buttonContainer) {
+    padding-top: 0;
+  }
+}

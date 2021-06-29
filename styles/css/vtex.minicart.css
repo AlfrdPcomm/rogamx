@@ -1,0 +1,40 @@
+.openIconContainer {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+.openIconContainer :global(.vtex-button):hover {
+  background-color: transparent;
+}
+
+.minicartIconContainer {
+  position: relative;
+}
+.minicartIconContainer::after {
+  content: "Mi Carrito";
+  width: 5rem;
+  display: none;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-align: center;
+  color: #2d4b9a;
+  transform: translateX(-50%);
+}
+@media screen and (min-width: 1024px) {
+  .minicartIconContainer::after {
+    display: block;
+    transform: translate(-50%, 0.75rem);
+  }
+}
+
+.cartIcon--HeaderIcon {
+  color: #2d4b9a;
+}
+@media screen and (min-width: 1024px) {
+  .cartIcon--HeaderIcon {
+    transform: scale(2);
+  }
+}

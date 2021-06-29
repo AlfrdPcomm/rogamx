@@ -1,0 +1,42 @@
+{
+  "store.custom#StaticPageOnlyText": {
+      "blocks": [
+          "flex-layout.row#StaticPageOnlyText"
+      ]
+  },
+  "flex-layout.row#StaticPageOnlyText": {
+      "title": "StaticPageOnlyText",
+      "props": {
+          "colSizing": "auto",
+          "blockClass": "StaticPageOnlyText"
+      },
+      "children": [
+          "flex-layout.col#StaticPageOnlyText-Text"
+      ]
+  },
+  "flex-layout.col#StaticPageOnlyText-Text": {
+      "props": {
+          "width": "70%",
+          "blockClass": "StaticPageOnlyText-Text"
+      },
+      "children": [
+          "rich-text#StaticPageOnlyText-Title_01",
+          "rich-text#StaticPageOnlyText-Content_01"
+      ]
+  },
+  // Texts
+  "rich-text#StaticPageOnlyText-Title_01": {
+      "title": "StaticPageOnlyText-Title",
+      "props": {
+          "text": "# Title",
+          "blockClass": "StaticPageOnlyText"
+      }
+  },
+  "rich-text#StaticPageOnlyText-Content_01": {
+      "title": "StaticPageOnlyText-Content",
+      "props": {
+          "text": "Esse quis in consectetur id nostrud et reprehenderit quis. Reprehenderit consectetur sint voluptate nulla id et nulla. Fugiat adipisicing irure consequat consequat officia duis enim aute nostrud culpa aute velit.",
+          "blockClass": "StaticPageOnlyText"
+      }
+  }
+}
