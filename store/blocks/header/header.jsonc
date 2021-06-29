@@ -26,7 +26,9 @@
   "flex-layout.row#telemkt":{
     "children":[
       "telemarketing"
-    ]
+    ],"props":{
+      "fullWidth":true
+    }
   },"telemarketing":{
     "props":{
       "component": "index"
