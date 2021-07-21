@@ -16,25 +16,6 @@
       "flex-layout.row#FooterMobile3"
       
     ]
-  },"flex-layout.row#wa":{
-    "children":[
-      "sticky-layout#whatsapp"
-    ],"props":{
-      "blockClass": "footerwhats"
-    }
-  },"sticky-layout#whatsapp":{
-    "children":[
-      "rich-text#whatsapp"
-    ],"props":{
-      "position": "bottom",
-      "blockClass":"stickywapp"
-    }
-  }, "rich-text#whatsapp":{
-    "props":{
-      "text": "<a href='tel: 6142414225'>6142414225</a>",
-      "textPosition":"CENTER",
-      "blockClass":"txtwapbtn"
-    }
   },
 
 

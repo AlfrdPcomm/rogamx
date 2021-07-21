@@ -418,11 +418,6 @@
       font-size: 16px;
     }
 
-:global(.vtex-sticky-layout-0-x-container--stickywapp){
-  width: 326;
-  height: 55px;
-  background-color: #33B512;
-}
 
 :global(.vtex-my-orders-app-3-x-cancelBtn){
   display: none;
