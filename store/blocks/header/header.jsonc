@@ -11,7 +11,8 @@
     "children": [
       "flex-layout.row#notification-mobile",
       "sticky-layout#1-mobile",
-      "flex-layout.row#2-mobile"
+      "flex-layout.row#2-mobile",
+      "ModalFranquicia"
     ]
   },
   "header-layout.desktop": {
@@ -20,7 +21,8 @@
       "flex-layout.row#1-desktop",
       "sticky-layout#4-desktop",
       "flex-layout.row#2-desktop",
-      "flex-layout.row#SiteNavPrev"
+      "flex-layout.row#SiteNavPrev",
+      "ModalFranquicia"
     ]
   },
   "flex-layout.row#telemkt":{
@@ -266,7 +268,8 @@
       "menu-item#category-home2",
       "menu-item#category-home3",
       "menu-item#info-home",
-      "menu-item#info-home2"
+      "menu-item#info-home2",
+      "ButtonFranquicia"
     ]
   },
   "flex-layout.col#buscmob": {
